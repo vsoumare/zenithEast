@@ -1,0 +1,34 @@
+ 
+
+
+    <div class="main">
+      <div class="container">
+        <img src="http://s3.amazonaws.com/codecademy-content/projects/innovation-cloud/cloud.svg" height="128" width="196">
+        <h2>Zenith East Connection</h2>
+        <p>Connect with your teachers from the comfort of your house and don't miss any resource.</p>
+        <p>Do your homework online submit them and watch the teachers correct them and give you a feebaack.</p>
+        <p>Learning have never been that fun and easy and plus get a live help in our chat room.</p> 
+        <p>Explore the world and get the best education possible.</p>
+      </div>
+    </div>
+
+    <div class="jumbotron">
+      <div class="container">
+        <h2>Stay Connected</h2>
+        <p>Receive weekly insights from industry insiders.</p>
+        
+        
+        <!-- Your code here -->
+      <%= form_for(@signup) do |f| %>  
+         <div class="field"> 
+            <%= f.label :signup %><br> 
+            <%= f.text_area :email %> 
+         </div> 
+         <div class="actions"> 
+            <%= f.submit "Join" %> 
+         </div> 
+     <% end %>
+      </div>
+    </div>
+
+                                                                                                                                                        
